@@ -1,0 +1,366 @@
+h1
+{
+	
+	padding-top: 85px;
+	padding-left: 40px;
+	font-size: 70px;
+    font-family: cursive;
+    color: grey;
+    
+}
+
+h2
+{
+	font-size: 60px;
+	padding-right: 50px;
+	padding-top: 250px;
+    font-family: monospace;
+    color: lightgray;
+   
+}
+
+h3
+{
+	font-size: 55px;
+    color: blue;
+}
+
+h4
+{
+	font-size: 30px;
+    color: blue;
+    
+}
+*
+{
+	margin: 0px auto;
+	padding: 0px auto;
+	box-sizing: border-box;
+}
+header
+{
+	background-image: url(image/banner.jpg);
+
+	height: 250px;
+	
+	background-position: scale;
+    background-repeat: no-repeat;
+   
+
+}
+
+
+
+p
+{
+
+	padding-top: 20px;
+	font-size: 40px;
+    color: lightgray;
+    margin-left: 10px;
+}
+
+.error	
+{	
+    color:red;
+	}
+table a{
+    color: black;
+}
+table a:hover{
+    color: grey;
+}
+input[type=text] 
+{
+		 
+		  width: 100%;
+		  padding: 10px 20px;
+		  margin: 8px 0;
+		  box-sizing: border-box;
+    
+		}
+input[type=submit]
+{
+		  background-color: #333333;
+		  border: none;
+		  color: white;
+		  padding: 12px 24px;
+		  text-decoration: none;
+		  margin: 4px 2px;
+		  cursor: pointer;
+		}
+
+ul {
+    list-style-type: none;
+    margin: 50;
+    padding: 30;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: purple;
+}
+
+
+
+footer
+{
+	background-color: #333333;
+	font-size: 1em;							
+	font-style: italic;							
+	text-align: center;
+	color: white;
+	padding: 1em;
+}
+
+table
+{
+	width: 60%;
+	border-collapse: collapse;
+	margin:0px auto;
+}
+
+tr:nth-of-type(odd)
+{
+	background: lightgray;
+}
+
+th
+{
+	background:#333;
+	color: white;
+	font-weight: bold;
+}
+
+td, th
+{
+	padding: 10px;
+	border:2px solid #333;
+	text-align: left;
+}
+
+
+#index
+{
+	background-image: url(image/background.jpg);
+	background-repeat: no-repeat;
+	height: 900px;
+}
+#index-white
+{
+	background-image: url(image/white.jpg);
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
+#aboutuspage
+{
+	background-image: url(image/background.jpg);
+    
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
+#book
+{
+	background-image: url(image/white.jpg);
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
+#contactuspage
+{
+	background-image: url(image/background.jpg);
+	background-repeat: no-repeat;
+	height: 800px;
+}
+
+#table
+{
+	padding-top: 25px;
+
+}
+
+#quote
+{
+	float: right;
+	margin-left: 820px;
+	text-align: center;
+}
+
+#form
+{
+	float: left;
+	margin-top: 50px;
+	margin-left: 620px;
+	font-size: 25px;
+    color: black;
+
+}
+
+
+
+
+#about-text
+{
+	
+	text-align: center;
+    
+}
+#about-des{
+    color:white;
+}
+
+#contact-text
+{
+	float: left;
+	padding-left: 80px;
+	padding-top: 280px;
+}
+
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) 
+{
+
+	#container
+	{
+		width: 100%;
+		min-width: 0;
+		margin: 0;
+		padding: 0;
+		background-color: red;
+	}
+
+	#about_quote
+	{
+		padding: 2em;
+		margin: 1em;
+	}
+
+	#home
+	{
+		background-image: none;
+		padding: 1em;
+		background-color: #ccc;
+		margin:0;
+		padding: 0;
+	}
+
+	#info
+	{
+		margin: 0;
+		float: none;
+		padding: 0;
+	}
+
+	#table
+	{
+		margin:0;
+	}
+
+	#product
+	{
+		margin: 0;
+	}
+
+	table
+	{
+		width: 100%;
+	}
+
+	td,th
+	{
+		padding: 0;
+		text-align: left;
+	}
+
+	body
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+	header
+	{
+		padding-top: 1px;
+	}
+
+
+	h1
+	{
+		font-size: 3em;
+		padding: 1em;
+		width: 85%;
+		text-align: center;
+	}
+
+	footer
+	{
+		padding: 0.5em;
+		margin: 0;
+	}
+
+
+	main
+	{
+		padding:0;
+		margin: 0;
+		float: none;
+	}
+
+		h2, h3, h4, p 
+	{
+		font-size:1em;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	table, thead, tbody, th, td, tr 
+	{
+		display: block;
+	}
+
+	thead tr
+	{
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	tr 
+	{
+		border: 1px solid #333; 
+	}
+
+	td
+	{
+	border: none;
+	border-bottom: 1px solid #CCC;
+	position: relative;
+	}
+
+	td:before 
+	{
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 45%;
+	padding-right: 10px;
+	white-space: nowrap;
+	}
+
+}
