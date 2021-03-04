@@ -21,8 +21,8 @@
  <main>
  <div id="index">
  <div id="desc">
- <h2>Book Store Cambridge</h2></div>
- <p>Book Store Cambridge is a pioneer in book collections on different subjects.Here you can get books on all your
+ <h2 id="index-text">Book Store Cambridge</h2></div>
+ <p id="bs-text">Book Store Cambridge is a pioneer in book collections on different subjects.Here you can get books on all your
  choices and enlighten yourself with knowledge.We  provide books for sell as well as on rent.
  Our books collections are so vast that  you will feel like you reached at a  library. </p>
  </div>

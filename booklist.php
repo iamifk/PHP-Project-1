@@ -59,7 +59,7 @@
 							{
 								echo "<tr>";
 								echo "<td><a href='checkout.php?id=".$row['id']."'>" . $row['bookname'] . 	"</a></td>";
-								echo "<td>" . $row['price'] . 		"</td>";
+								echo "<td>" . $row['price']." CAD" . 		"</td>";
 								echo "<td>" . $row['quantity'] . 	"</td>";
 								echo "</tr>";
 							}
