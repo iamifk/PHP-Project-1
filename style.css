@@ -1,3 +1,93 @@
+#about-text,#index-text
+{
+	
+	text-align: center;
+    
+}
+#about-des{
+    color:white;
+}
+
+#contact-text
+{
+	float: left;
+	padding-left: 80px;
+	padding-top: 280px;
+}
+#abc,#def{
+	margin-top:0;
+	padding-top:0;
+	text-align: center;
+}
+
+
+#aboutuspage
+{
+	background-image: url(image/background.jpg);
+    
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
+#book
+{
+	background-image: url(image/white.jpg);
+	background-repeat: no-repeat;
+	height: 900px;
+}
+
+#contactuspage
+{
+	background-image: url(image/background.jpg);
+	background-repeat: no-repeat;
+	height: 800px;
+}
+
+#table
+{
+	padding-top: 25px;
+
+}
+
+#quote
+{
+	float: right;
+	margin-left: 820px;
+	text-align: center;
+}
+
+#form
+{
+	float: left;
+	margin-top: 50px;
+	margin-left: 620px;
+	font-size: 25px;
+    color: black;
+
+}
+#bs-text{
+	text-align: center;
+	padding-left: 70px;
+	padding-right:70px;
+	color: white;
+}
+
+#bs-text1{
+	text-align: center;
+	padding-left: 310px;
+	padding-right:310px;
+	color: white;
+}
+
+#bs-text2{
+	text-align: center;
+	padding-left: 310px;
+	padding-right:380px;
+	color: white;
+}
+
+
+
 h1
 {
 	
@@ -111,7 +201,10 @@ li a {
 }
 
 li a:hover {
-    background-color: purple;
+    background-color: blue;
+}
+td a:hover{
+	color:blue;
 }
 
 
@@ -150,6 +243,10 @@ td, th
 	padding: 10px;
 	border:2px solid #333;
 	text-align: left;
+	
+}
+td a{
+	text-decoration: none;
 }
 
 
@@ -166,201 +263,8 @@ td, th
 	height: 900px;
 }
 
-#aboutuspage
-{
-	background-image: url(image/background.jpg);
-    
-	background-repeat: no-repeat;
-	height: 900px;
-}
-
-#book
-{
-	background-image: url(image/white.jpg);
-	background-repeat: no-repeat;
-	height: 900px;
-}
-
-#contactuspage
-{
-	background-image: url(image/background.jpg);
-	background-repeat: no-repeat;
-	height: 800px;
-}
-
-#table
-{
-	padding-top: 25px;
-
-}
-
-#quote
-{
-	float: right;
-	margin-left: 820px;
-	text-align: center;
-}
-
-#form
-{
-	float: left;
-	margin-top: 50px;
-	margin-left: 620px;
-	font-size: 25px;
-    color: black;
-
-}
 
 
 
 
-#about-text
-{
-	
-	text-align: center;
-    
-}
-#about-des{
-    color:white;
-}
 
-#contact-text
-{
-	float: left;
-	padding-left: 80px;
-	padding-top: 280px;
-}
-
-
-@media only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px) 
-{
-
-	#container
-	{
-		width: 100%;
-		min-width: 0;
-		margin: 0;
-		padding: 0;
-		background-color: red;
-	}
-
-	#about_quote
-	{
-		padding: 2em;
-		margin: 1em;
-	}
-
-	#home
-	{
-		background-image: none;
-		padding: 1em;
-		background-color: #ccc;
-		margin:0;
-		padding: 0;
-	}
-
-	#info
-	{
-		margin: 0;
-		float: none;
-		padding: 0;
-	}
-
-	#table
-	{
-		margin:0;
-	}
-
-	#product
-	{
-		margin: 0;
-	}
-
-	table
-	{
-		width: 100%;
-	}
-
-	td,th
-	{
-		padding: 0;
-		text-align: left;
-	}
-
-	body
-	{
-		margin: 0;
-		padding: 0;
-	}
-
-	header
-	{
-		padding-top: 1px;
-	}
-
-
-	h1
-	{
-		font-size: 3em;
-		padding: 1em;
-		width: 85%;
-		text-align: center;
-	}
-
-	footer
-	{
-		padding: 0.5em;
-		margin: 0;
-	}
-
-
-	main
-	{
-		padding:0;
-		margin: 0;
-		float: none;
-	}
-
-		h2, h3, h4, p 
-	{
-		font-size:1em;
-		padding-left: 2em;
-		padding-right: 2em;
-	}
-
-	table, thead, tbody, th, td, tr 
-	{
-		display: block;
-	}
-
-	thead tr
-	{
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-	}
-
-	tr 
-	{
-		border: 1px solid #333; 
-	}
-
-	td
-	{
-	border: none;
-	border-bottom: 1px solid #CCC;
-	position: relative;
-	}
-
-	td:before 
-	{
-	position: absolute;
-	top: 6px;
-	left: 6px;
-	width: 45%;
-	padding-right: 10px;
-	white-space: nowrap;
-	}
-
-}

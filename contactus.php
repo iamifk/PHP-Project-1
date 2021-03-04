@@ -21,10 +21,13 @@
  <main>
  <div id="contactuspage">
  <div id="contact-text">
- <p>Book-Store Cambridge</p><br>
+     <div id="bs-text1">
+     <p>Book-Store Cambridge</p><br>
  <p>36 Bluebird Court Cambridge Ontario</p><br>
  <p>N1R-6P8</p><br>
  <p>Mobile: +148-44467579</p>
+     </div>
+ 
  </div>
  
  </div>

@@ -22,7 +22,7 @@
  <div id="aboutuspage">
  <div id="about-text">
  <h2>Book Store Cambridge</h2></div>
- <p id="about-des">Book Store Cambridge is established in the year 2021 during the infamous pandemic. Our book store enables user to buy
+ <p id="bs-text">Book Store Cambridge is established in the year 2021 during the infamous pandemic. Our book store enables user to buy
  books online . They have the choice to buy books ranging from kid books to all categories and genres.</p>
  </div>
  

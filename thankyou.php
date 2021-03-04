@@ -13,9 +13,10 @@ include('mysqli_connect.php');
 <body>
 
 
+
 <div id="index">
  <div id="Bookheader">
- <h2>Book Store</h2></div>
+ <h2 id="abc">Book Store</h2></div>
  <nav>
  <ul>
 
@@ -44,16 +45,16 @@ include('mysqli_connect.php');
 
 	if ($con->query($query) === TRUE) 
 	{
-	    echo "<h2>Order Successfull.</h2>";
+	    echo "<h2 align='center'>Order Successfull</h2>";
 	} 
 	else 
 	{
-	    echo "Please Check Your Datails: " . $con->error;
+	    echo "<h2 align='center'>Please Check Your Datails: </h2>" . $con->error;
 	}
 
 	?>
  <main>
- <p> Thank you for ordering with us.</p>
+ <p id='bs-text2'> Thank you for ordering with us.</p>
  </main>
  </div>
  
